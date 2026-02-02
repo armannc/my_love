@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Romantic Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="slider">
+
+  <!-- BLUR BACKGROUND -->
+  <div class="blur-bg" id="blurBg"></div>
+
+  <!-- SLIDER TRACK -->
+  <div class="track" id="track">
+    <img src="img/6.jpeg">
+    <img src="img/1.jpeg">
+    <img src="img/2.jpeg">
+    <img src="img/3.jpeg">
+    <img src="img/4.jpeg">
+    <img src="img/5.jpeg">
+    <img src="img/6.jpeg">
+    <img src="img/1.jpeg">
+  </div>
+
+  <!-- DOTS -->
+  <div class="dots" id="dots"></div>
+
+  <!-- SWIPE BUTTONS -->
+  <button class="arrow left" id="prevBtn">◀</button>
+  <button class="arrow right" id="nextBtn">▶</button>
+
+</div>
+
+<!-- BACKGROUND MUSIC -->
+<audio id="bgMusic" src="media/romantic.mp3" autoplay loop muted></audio>
+<button id="musicBtn">🎵 Вкл/Выкл музыка</button>
+<div id="hearts"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
